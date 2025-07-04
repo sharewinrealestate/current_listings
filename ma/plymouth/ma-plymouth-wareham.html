@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Single Family Listings Summary in Wareham, MA (Plymouth)</title>
+    <title>Listings Summary in Wareham, MA (Plymouth)</title>
     <style>
         tr:nth-child(even) {
             background-color: #f9f9f9;
@@ -15,80 +15,337 @@
     </style>
 </head>
 <body>
-    <h1 style="text-align: center; font-family: Arial, sans-serif;">Single Family Listings Reports in Wareham, MA</h1>
-    <table style="width: 80%; margin: 20px auto; border-collapse: collapse; font-family: Arial, sans-serif;">
-        <tr>
-            <th style="padding: 10px; border: 1px solid #ddd; text-align: left; background-color: #f2f2f2; font-weight: bold;">Zip Code</th>
-            <th style="padding: 10px; border: 1px solid #ddd; text-align: left; background-color: #f2f2f2; font-weight: bold;">City</th>
-            <th style="padding: 10px; border: 1px solid #ddd; text-align: left; background-color: #f2f2f2; font-weight: bold;">Counts</th>
-            <th style="padding: 10px; border: 1px solid #ddd; text-align: left; background-color: #f2f2f2; font-weight: bold;">Min Price</th>
-            <th style="padding: 10px; border: 1px solid #ddd; text-align: left; background-color: #f2f2f2; font-weight: bold;">Mean Price</th>
-            <th style="padding: 10px; border: 1px solid #ddd; text-align: left; background-color: #f2f2f2; font-weight: bold;">Max Price</th>
-        </tr>
-        
-                        <tr style="padding: 10px; border: 1px solid #ddd; text-align: left;">
-                            <td style="padding-left: 5px"><a href="https://haifu.kw.com/ma-plymouth">Plymouth</a></td>
-                            <td style="padding-left: 5px"></td>
-                            <td style="padding-left: 5px">905</td>
-                            <td style="padding-left: 5px"></td>
-                            <td style="padding-left: 5px"></td>
-                            <td style="padding-left: 5px"></td>
-                        </tr>
-                    
-                        <tr style="padding: 10px; border: 1px solid #ddd; text-align: left;">
-                            <td style="padding-left: 5px"><a href="https://haifu.kw.com/ma-plymouth-wareham">Wareham</a></td>
-                            <td style="padding-left: 5px">Plymouth</td>
-                            <td style="padding-left: 5px">53</td>
-                            <td style="padding-left: 5px"></td>
-                            <td style="padding-left: 5px"></td>
-                            <td style="padding-left: 5px"></td>
-                        </tr>
-                    
-                        <tr style="padding: 10px; border: 1px solid #ddd; text-align: left;">
-                            <td style="padding-left: 5px"><a href="https://haifu.kw.com/search/sale/02532-USA" target="_blank">02532</a></td>
-                            <td style="padding-left: 5px">Wareham</td>
-                            <td style="padding-left: 5px">8</td>
-                            <td style="padding-left: 5px">$424,900</td>
-                            <td style="padding-left: 5px">$800,337</td>
-                            <td style="padding-left: 5px">$1,749,000</td>
-                        </tr>
-                    
-                        <tr style="padding: 10px; border: 1px solid #ddd; text-align: left;">
-                            <td style="padding-left: 5px"><a href="https://haifu.kw.com/search/sale/02538-USA" target="_blank">02538</a></td>
-                            <td style="padding-left: 5px">Wareham</td>
-                            <td style="padding-left: 5px">7</td>
-                            <td style="padding-left: 5px">$425,000</td>
-                            <td style="padding-left: 5px">$686,257</td>
-                            <td style="padding-left: 5px">$975,000</td>
-                        </tr>
-                    
-                        <tr style="padding: 10px; border: 1px solid #ddd; text-align: left;">
-                            <td style="padding-left: 5px"><a href="https://haifu.kw.com/search/sale/02558-USA" target="_blank">02558</a></td>
-                            <td style="padding-left: 5px">Wareham</td>
-                            <td style="padding-left: 5px">6</td>
-                            <td style="padding-left: 5px">$399,000</td>
-                            <td style="padding-left: 5px">$593,383</td>
-                            <td style="padding-left: 5px">$925,000</td>
-                        </tr>
-                    
-                        <tr style="padding: 10px; border: 1px solid #ddd; text-align: left;">
-                            <td style="padding-left: 5px"><a href="https://haifu.kw.com/search/sale/02571-USA" target="_blank">02571</a></td>
-                            <td style="padding-left: 5px">Wareham</td>
-                            <td style="padding-left: 5px">30</td>
-                            <td style="padding-left: 5px">$199,999</td>
-                            <td style="padding-left: 5px">$830,869</td>
-                            <td style="padding-left: 5px">$6,900,000</td>
-                        </tr>
-                    
-                        <tr style="padding: 10px; border: 1px solid #ddd; text-align: left;">
-                            <td style="padding-left: 5px"><a href="https://haifu.kw.com/search/sale/02576-USA" target="_blank">02576</a></td>
-                            <td style="padding-left: 5px">Wareham</td>
-                            <td style="padding-left: 5px">2</td>
-                            <td style="padding-left: 5px">$450,000</td>
-                            <td style="padding-left: 5px">$459,500</td>
-                            <td style="padding-left: 5px">$469,000</td>
-                        </tr>
-                    
-    </table>
+    <h1 style="text-align: center; font-family: Arial, sans-serif;">Listings Reports in Wareham, MA</h1>
+    
+<h2 style="text-align: center; font-family: Arial, sans-serif;color: #85082f;padding-top:20px;">Business Listings</h2>
+<table style="width: 80%; margin: 20px auto; border-collapse: collapse; font-family: Arial, sans-serif;">
+    <tr>
+        <th style="padding: 10px; border: 1px solid #ddd; text-align: left; background-color: #f2f2f2; font-weight: bold;">Zip Code</th>
+        <th style="padding: 10px; border: 1px solid #ddd; text-align: left; background-color: #f2f2f2; font-weight: bold;">City</th>
+        <th style="padding: 10px; border: 1px solid #ddd; text-align: left; background-color: #f2f2f2; font-weight: bold;">Counts</th>
+        <th style="padding: 10px; border: 1px solid #ddd; text-align: left; background-color: #f2f2f2; font-weight: bold;">Min Price</th>
+        <th style="padding: 10px; border: 1px solid #ddd; text-align: left; background-color: #f2f2f2; font-weight: bold;">Mean Price</th>
+        <th style="padding: 10px; border: 1px solid #ddd; text-align: left; background-color: #f2f2f2; font-weight: bold;">Max Price</th>
+    </tr>
+    
+                            <tr style="padding: 10px; border: 1px solid #ddd; text-align: left;">
+                                <td style="padding-left: 10px"><a href="https://haifu.kw.com/ma-plymouth" target="_blank">Plymouth</a></td>
+                                <td style="padding-left: 10px"></td>
+                                <td style="padding-left: 10px">17</td>
+                                <td style="padding-left: 10px"></td>
+                                <td style="padding-left: 10px"></td>
+                                <td style="padding-left: 10px"></td>
+                            </tr>
+                        
+                            <tr style="padding: 10px; border: 1px solid #ddd; text-align: left;">
+                                <td style="padding-left: 10px"><a href="https://haifu.kw.com/ma-plymouth-wareham" target="_blank">Wareham</a></td>
+                                <td style="padding-left: 10px">Plymouth</td>
+                                <td style="padding-left: 10px">1</td>
+                                <td style="padding-left: 10px"></td>
+                                <td style="padding-left: 10px"></td>
+                                <td style="padding-left: 10px"></td>
+                            </tr>
+                        
+                            <tr style="padding: 10px; border: 1px solid #ddd; text-align: left;">
+                                <td style="padding-left: 10px"><a href="https://haifu.kw.com/search/sale/02571-USA" target="_blank">02571</a></td>
+                                <td style="padding-left: 10px">Wareham</td>
+                                <td style="padding-left: 10px">1</td>
+                                <td style="padding-left: 10px">$149,000</td>
+                                <td style="padding-left: 10px">$149,000</td>
+                                <td style="padding-left: 10px">$149,000</td>
+                            </tr>
+                        
+</table>
+
+
+<h2 style="text-align: center; font-family: Arial, sans-serif;color: #85082f;padding-top:20px;">Condo Listings</h2>
+<table style="width: 80%; margin: 20px auto; border-collapse: collapse; font-family: Arial, sans-serif;">
+    <tr>
+        <th style="padding: 10px; border: 1px solid #ddd; text-align: left; background-color: #f2f2f2; font-weight: bold;">Zip Code</th>
+        <th style="padding: 10px; border: 1px solid #ddd; text-align: left; background-color: #f2f2f2; font-weight: bold;">City</th>
+        <th style="padding: 10px; border: 1px solid #ddd; text-align: left; background-color: #f2f2f2; font-weight: bold;">Counts</th>
+        <th style="padding: 10px; border: 1px solid #ddd; text-align: left; background-color: #f2f2f2; font-weight: bold;">Min Price</th>
+        <th style="padding: 10px; border: 1px solid #ddd; text-align: left; background-color: #f2f2f2; font-weight: bold;">Mean Price</th>
+        <th style="padding: 10px; border: 1px solid #ddd; text-align: left; background-color: #f2f2f2; font-weight: bold;">Max Price</th>
+    </tr>
+    
+                            <tr style="padding: 10px; border: 1px solid #ddd; text-align: left;">
+                                <td style="padding-left: 10px"><a href="https://haifu.kw.com/ma-plymouth" target="_blank">Plymouth</a></td>
+                                <td style="padding-left: 10px"></td>
+                                <td style="padding-left: 10px">194</td>
+                                <td style="padding-left: 10px"></td>
+                                <td style="padding-left: 10px"></td>
+                                <td style="padding-left: 10px"></td>
+                            </tr>
+                        
+                            <tr style="padding: 10px; border: 1px solid #ddd; text-align: left;">
+                                <td style="padding-left: 10px"><a href="https://haifu.kw.com/ma-plymouth-wareham" target="_blank">Wareham</a></td>
+                                <td style="padding-left: 10px">Plymouth</td>
+                                <td style="padding-left: 10px">6</td>
+                                <td style="padding-left: 10px"></td>
+                                <td style="padding-left: 10px"></td>
+                                <td style="padding-left: 10px"></td>
+                            </tr>
+                        
+                            <tr style="padding: 10px; border: 1px solid #ddd; text-align: left;">
+                                <td style="padding-left: 10px"><a href="https://haifu.kw.com/search/sale/02532-USA" target="_blank">02532</a></td>
+                                <td style="padding-left: 10px">Wareham</td>
+                                <td style="padding-left: 10px">1</td>
+                                <td style="padding-left: 10px">$499,900</td>
+                                <td style="padding-left: 10px">$499,900</td>
+                                <td style="padding-left: 10px">$499,900</td>
+                            </tr>
+                        
+                            <tr style="padding: 10px; border: 1px solid #ddd; text-align: left;">
+                                <td style="padding-left: 10px"><a href="https://haifu.kw.com/search/sale/02558-USA" target="_blank">02558</a></td>
+                                <td style="padding-left: 10px">Wareham</td>
+                                <td style="padding-left: 10px">2</td>
+                                <td style="padding-left: 10px">$739,900</td>
+                                <td style="padding-left: 10px">$739,900</td>
+                                <td style="padding-left: 10px">$739,900</td>
+                            </tr>
+                        
+                            <tr style="padding: 10px; border: 1px solid #ddd; text-align: left;">
+                                <td style="padding-left: 10px"><a href="https://haifu.kw.com/search/sale/02571-USA" target="_blank">02571</a></td>
+                                <td style="padding-left: 10px">Wareham</td>
+                                <td style="padding-left: 10px">3</td>
+                                <td style="padding-left: 10px">$325,000</td>
+                                <td style="padding-left: 10px">$439,933</td>
+                                <td style="padding-left: 10px">$619,900</td>
+                            </tr>
+                        
+</table>
+
+
+<h2 style="text-align: center; font-family: Arial, sans-serif;color: #85082f;padding-top:20px;">Commercial Listings</h2>
+<table style="width: 80%; margin: 20px auto; border-collapse: collapse; font-family: Arial, sans-serif;">
+    <tr>
+        <th style="padding: 10px; border: 1px solid #ddd; text-align: left; background-color: #f2f2f2; font-weight: bold;">Zip Code</th>
+        <th style="padding: 10px; border: 1px solid #ddd; text-align: left; background-color: #f2f2f2; font-weight: bold;">City</th>
+        <th style="padding: 10px; border: 1px solid #ddd; text-align: left; background-color: #f2f2f2; font-weight: bold;">Counts</th>
+        <th style="padding: 10px; border: 1px solid #ddd; text-align: left; background-color: #f2f2f2; font-weight: bold;">Min Price</th>
+        <th style="padding: 10px; border: 1px solid #ddd; text-align: left; background-color: #f2f2f2; font-weight: bold;">Mean Price</th>
+        <th style="padding: 10px; border: 1px solid #ddd; text-align: left; background-color: #f2f2f2; font-weight: bold;">Max Price</th>
+    </tr>
+    
+                            <tr style="padding: 10px; border: 1px solid #ddd; text-align: left;">
+                                <td style="padding-left: 10px"><a href="https://haifu.kw.com/ma-plymouth" target="_blank">Plymouth</a></td>
+                                <td style="padding-left: 10px"></td>
+                                <td style="padding-left: 10px">193</td>
+                                <td style="padding-left: 10px"></td>
+                                <td style="padding-left: 10px"></td>
+                                <td style="padding-left: 10px"></td>
+                            </tr>
+                        
+                            <tr style="padding: 10px; border: 1px solid #ddd; text-align: left;">
+                                <td style="padding-left: 10px"><a href="https://haifu.kw.com/ma-plymouth-wareham" target="_blank">Wareham</a></td>
+                                <td style="padding-left: 10px">Plymouth</td>
+                                <td style="padding-left: 10px">16</td>
+                                <td style="padding-left: 10px"></td>
+                                <td style="padding-left: 10px"></td>
+                                <td style="padding-left: 10px"></td>
+                            </tr>
+                        
+                            <tr style="padding: 10px; border: 1px solid #ddd; text-align: left;">
+                                <td style="padding-left: 10px"><a href="https://haifu.kw.com/search/sale/02532-USA" target="_blank">02532</a></td>
+                                <td style="padding-left: 10px">Wareham</td>
+                                <td style="padding-left: 10px">2</td>
+                                <td style="padding-left: 10px">$1,300</td>
+                                <td style="padding-left: 10px">$1,300</td>
+                                <td style="padding-left: 10px">$1,300</td>
+                            </tr>
+                        
+                            <tr style="padding: 10px; border: 1px solid #ddd; text-align: left;">
+                                <td style="padding-left: 10px"><a href="https://haifu.kw.com/search/sale/02538-USA" target="_blank">02538</a></td>
+                                <td style="padding-left: 10px">Wareham</td>
+                                <td style="padding-left: 10px">1</td>
+                                <td style="padding-left: 10px">$5,000</td>
+                                <td style="padding-left: 10px">$5,000</td>
+                                <td style="padding-left: 10px">$5,000</td>
+                            </tr>
+                        
+                            <tr style="padding: 10px; border: 1px solid #ddd; text-align: left;">
+                                <td style="padding-left: 10px"><a href="https://haifu.kw.com/search/sale/02558-USA" target="_blank">02558</a></td>
+                                <td style="padding-left: 10px">Wareham</td>
+                                <td style="padding-left: 10px">1</td>
+                                <td style="padding-left: 10px">$1,350</td>
+                                <td style="padding-left: 10px">$1,350</td>
+                                <td style="padding-left: 10px">$1,350</td>
+                            </tr>
+                        
+                            <tr style="padding: 10px; border: 1px solid #ddd; text-align: left;">
+                                <td style="padding-left: 10px"><a href="https://haifu.kw.com/search/sale/02571-USA" target="_blank">02571</a></td>
+                                <td style="padding-left: 10px">Wareham</td>
+                                <td style="padding-left: 10px">9</td>
+                                <td style="padding-left: 10px">$12</td>
+                                <td style="padding-left: 10px">$109,340</td>
+                                <td style="padding-left: 10px">$549,000</td>
+                            </tr>
+                        
+                            <tr style="padding: 10px; border: 1px solid #ddd; text-align: left;">
+                                <td style="padding-left: 10px"><a href="https://haifu.kw.com/search/sale/02576-USA" target="_blank">02576</a></td>
+                                <td style="padding-left: 10px">Wareham</td>
+                                <td style="padding-left: 10px">3</td>
+                                <td style="padding-left: 10px">$11</td>
+                                <td style="padding-left: 10px">$949,670</td>
+                                <td style="padding-left: 10px">$2,499,999</td>
+                            </tr>
+                        
+</table>
+
+
+<h2 style="text-align: center; font-family: Arial, sans-serif;color: #85082f;padding-top:20px;">Mobile Home Listings</h2>
+<table style="width: 80%; margin: 20px auto; border-collapse: collapse; font-family: Arial, sans-serif;">
+    <tr>
+        <th style="padding: 10px; border: 1px solid #ddd; text-align: left; background-color: #f2f2f2; font-weight: bold;">Zip Code</th>
+        <th style="padding: 10px; border: 1px solid #ddd; text-align: left; background-color: #f2f2f2; font-weight: bold;">City</th>
+        <th style="padding: 10px; border: 1px solid #ddd; text-align: left; background-color: #f2f2f2; font-weight: bold;">Counts</th>
+        <th style="padding: 10px; border: 1px solid #ddd; text-align: left; background-color: #f2f2f2; font-weight: bold;">Min Price</th>
+        <th style="padding: 10px; border: 1px solid #ddd; text-align: left; background-color: #f2f2f2; font-weight: bold;">Mean Price</th>
+        <th style="padding: 10px; border: 1px solid #ddd; text-align: left; background-color: #f2f2f2; font-weight: bold;">Max Price</th>
+    </tr>
+    
+                            <tr style="padding: 10px; border: 1px solid #ddd; text-align: left;">
+                                <td style="padding-left: 10px"><a href="https://haifu.kw.com/ma-plymouth" target="_blank">Plymouth</a></td>
+                                <td style="padding-left: 10px"></td>
+                                <td style="padding-left: 10px">52</td>
+                                <td style="padding-left: 10px"></td>
+                                <td style="padding-left: 10px"></td>
+                                <td style="padding-left: 10px"></td>
+                            </tr>
+                        
+                            <tr style="padding: 10px; border: 1px solid #ddd; text-align: left;">
+                                <td style="padding-left: 10px"><a href="https://haifu.kw.com/ma-plymouth-wareham" target="_blank">Wareham</a></td>
+                                <td style="padding-left: 10px">Plymouth</td>
+                                <td style="padding-left: 10px">20</td>
+                                <td style="padding-left: 10px"></td>
+                                <td style="padding-left: 10px"></td>
+                                <td style="padding-left: 10px"></td>
+                            </tr>
+                        
+                            <tr style="padding: 10px; border: 1px solid #ddd; text-align: left;">
+                                <td style="padding-left: 10px"><a href="https://haifu.kw.com/search/sale/02532-USA" target="_blank">02532</a></td>
+                                <td style="padding-left: 10px">Wareham</td>
+                                <td style="padding-left: 10px">1</td>
+                                <td style="padding-left: 10px">$119,000</td>
+                                <td style="padding-left: 10px">$119,000</td>
+                                <td style="padding-left: 10px">$119,000</td>
+                            </tr>
+                        
+                            <tr style="padding: 10px; border: 1px solid #ddd; text-align: left;">
+                                <td style="padding-left: 10px"><a href="https://haifu.kw.com/search/sale/02538-USA" target="_blank">02538</a></td>
+                                <td style="padding-left: 10px">Wareham</td>
+                                <td style="padding-left: 10px">9</td>
+                                <td style="padding-left: 10px">$159,000</td>
+                                <td style="padding-left: 10px">$195,033</td>
+                                <td style="padding-left: 10px">$254,900</td>
+                            </tr>
+                        
+                            <tr style="padding: 10px; border: 1px solid #ddd; text-align: left;">
+                                <td style="padding-left: 10px"><a href="https://haifu.kw.com/search/sale/02558-USA" target="_blank">02558</a></td>
+                                <td style="padding-left: 10px">Wareham</td>
+                                <td style="padding-left: 10px">4</td>
+                                <td style="padding-left: 10px">$184,900</td>
+                                <td style="padding-left: 10px">$197,450</td>
+                                <td style="padding-left: 10px">$220,000</td>
+                            </tr>
+                        
+                            <tr style="padding: 10px; border: 1px solid #ddd; text-align: left;">
+                                <td style="padding-left: 10px"><a href="https://haifu.kw.com/search/sale/02571-USA" target="_blank">02571</a></td>
+                                <td style="padding-left: 10px">Wareham</td>
+                                <td style="padding-left: 10px">4</td>
+                                <td style="padding-left: 10px">$189,900</td>
+                                <td style="padding-left: 10px">$217,450</td>
+                                <td style="padding-left: 10px">$250,000</td>
+                            </tr>
+                        
+                            <tr style="padding: 10px; border: 1px solid #ddd; text-align: left;">
+                                <td style="padding-left: 10px"><a href="https://haifu.kw.com/search/sale/02576-USA" target="_blank">02576</a></td>
+                                <td style="padding-left: 10px">Wareham</td>
+                                <td style="padding-left: 10px">2</td>
+                                <td style="padding-left: 10px">$189,000</td>
+                                <td style="padding-left: 10px">$209,000</td>
+                                <td style="padding-left: 10px">$229,000</td>
+                            </tr>
+                        
+</table>
+
+
+<h2 style="text-align: center; font-family: Arial, sans-serif;color: #85082f;padding-top:20px;">Single Family Listings</h2>
+<table style="width: 80%; margin: 20px auto; border-collapse: collapse; font-family: Arial, sans-serif;">
+    <tr>
+        <th style="padding: 10px; border: 1px solid #ddd; text-align: left; background-color: #f2f2f2; font-weight: bold;">Zip Code</th>
+        <th style="padding: 10px; border: 1px solid #ddd; text-align: left; background-color: #f2f2f2; font-weight: bold;">City</th>
+        <th style="padding: 10px; border: 1px solid #ddd; text-align: left; background-color: #f2f2f2; font-weight: bold;">Counts</th>
+        <th style="padding: 10px; border: 1px solid #ddd; text-align: left; background-color: #f2f2f2; font-weight: bold;">Min Price</th>
+        <th style="padding: 10px; border: 1px solid #ddd; text-align: left; background-color: #f2f2f2; font-weight: bold;">Mean Price</th>
+        <th style="padding: 10px; border: 1px solid #ddd; text-align: left; background-color: #f2f2f2; font-weight: bold;">Max Price</th>
+    </tr>
+    
+                            <tr style="padding: 10px; border: 1px solid #ddd; text-align: left;">
+                                <td style="padding-left: 10px"><a href="https://haifu.kw.com/ma-plymouth" target="_blank">Plymouth</a></td>
+                                <td style="padding-left: 10px"></td>
+                                <td style="padding-left: 10px">905</td>
+                                <td style="padding-left: 10px"></td>
+                                <td style="padding-left: 10px"></td>
+                                <td style="padding-left: 10px"></td>
+                            </tr>
+                        
+                            <tr style="padding: 10px; border: 1px solid #ddd; text-align: left;">
+                                <td style="padding-left: 10px"><a href="https://haifu.kw.com/ma-plymouth-wareham" target="_blank">Wareham</a></td>
+                                <td style="padding-left: 10px">Plymouth</td>
+                                <td style="padding-left: 10px">53</td>
+                                <td style="padding-left: 10px"></td>
+                                <td style="padding-left: 10px"></td>
+                                <td style="padding-left: 10px"></td>
+                            </tr>
+                        
+                            <tr style="padding: 10px; border: 1px solid #ddd; text-align: left;">
+                                <td style="padding-left: 10px"><a href="https://haifu.kw.com/search/sale/02532-USA" target="_blank">02532</a></td>
+                                <td style="padding-left: 10px">Wareham</td>
+                                <td style="padding-left: 10px">8</td>
+                                <td style="padding-left: 10px">$424,900</td>
+                                <td style="padding-left: 10px">$800,337</td>
+                                <td style="padding-left: 10px">$1,749,000</td>
+                            </tr>
+                        
+                            <tr style="padding: 10px; border: 1px solid #ddd; text-align: left;">
+                                <td style="padding-left: 10px"><a href="https://haifu.kw.com/search/sale/02538-USA" target="_blank">02538</a></td>
+                                <td style="padding-left: 10px">Wareham</td>
+                                <td style="padding-left: 10px">7</td>
+                                <td style="padding-left: 10px">$425,000</td>
+                                <td style="padding-left: 10px">$686,257</td>
+                                <td style="padding-left: 10px">$975,000</td>
+                            </tr>
+                        
+                            <tr style="padding: 10px; border: 1px solid #ddd; text-align: left;">
+                                <td style="padding-left: 10px"><a href="https://haifu.kw.com/search/sale/02558-USA" target="_blank">02558</a></td>
+                                <td style="padding-left: 10px">Wareham</td>
+                                <td style="padding-left: 10px">6</td>
+                                <td style="padding-left: 10px">$399,000</td>
+                                <td style="padding-left: 10px">$593,383</td>
+                                <td style="padding-left: 10px">$925,000</td>
+                            </tr>
+                        
+                            <tr style="padding: 10px; border: 1px solid #ddd; text-align: left;">
+                                <td style="padding-left: 10px"><a href="https://haifu.kw.com/search/sale/02571-USA" target="_blank">02571</a></td>
+                                <td style="padding-left: 10px">Wareham</td>
+                                <td style="padding-left: 10px">30</td>
+                                <td style="padding-left: 10px">$199,999</td>
+                                <td style="padding-left: 10px">$830,869</td>
+                                <td style="padding-left: 10px">$6,900,000</td>
+                            </tr>
+                        
+                            <tr style="padding: 10px; border: 1px solid #ddd; text-align: left;">
+                                <td style="padding-left: 10px"><a href="https://haifu.kw.com/search/sale/02576-USA" target="_blank">02576</a></td>
+                                <td style="padding-left: 10px">Wareham</td>
+                                <td style="padding-left: 10px">2</td>
+                                <td style="padding-left: 10px">$450,000</td>
+                                <td style="padding-left: 10px">$459,500</td>
+                                <td style="padding-left: 10px">$469,000</td>
+                            </tr>
+                        
+</table>
+
 </body>
 </html>
